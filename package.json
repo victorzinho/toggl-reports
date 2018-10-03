@@ -1,0 +1,20 @@
+{
+  "name": "time-reports",
+  "version": "1.0.0",
+  "description": "Time reports for Xarvio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Víctor González <victor.gonzalez@geomati.co>",
+  "license": "MIT",
+  "dependencies": {
+    "markdown-pdf": "^9.0.0",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}

@@ -1,0 +1,33 @@
+body {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 1.8em;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+h2 {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  font-size: 1em;
+}
+
+table th, table td {
+  padding: 3px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+table tr {
+  border-top: 1px solid #c6cbd1;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}

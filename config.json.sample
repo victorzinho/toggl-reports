@@ -1,0 +1,6 @@
+{
+  "token": "YOUR_TOGGL_API_TOKEN",
+  "displayName": "YOUR_NAME_FOR DISPLAYING_IN_THE_REPORT",
+  "dayFormat": "DAY_FORMAT_FOR_MOMENT",
+  "month": "previous"
+}
