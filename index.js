@@ -30,6 +30,7 @@ https.get(options, (resp) => {
   resp.on('end', () => {
     const response = JSON.parse(data);
     const summary = response
+      .filter(entry => entry.pid == config.projectId)
       .map(entry => ({
         day: moment(entry.start).format(config.dayFormat),
         duration: entry.duration,
